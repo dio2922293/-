@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ポストボタン</title>
+<!-- リンクカード設定 -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="▶ タップして投稿">
+<meta property="og:image" content="https://ユーザー名.github.io/リポジトリ名/button.png">
+<script>
+  const myUrl = "https://ユーザー名.github.io/リポジトリ名/";
+  const text = "このボタン押すだけで投稿できた！すごい\n" + myUrl;
+  location.href = "https://x.com/intent/post?text=" + encodeURIComponent(text);
+</script>
+</head>
+<body>移動中...</body>
+</html>
